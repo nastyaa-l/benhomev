@@ -13,7 +13,6 @@
 }
 
 .header{
-  opacity: 0.9;
   width: 100%;
   background-image: url(./image/home.jpg);
   background-repeat: no-repeat;
@@ -22,6 +21,7 @@
   box-sizing: border-box;
   position: relative;
   padding: 41px 0 20px 0;
+  margin-bottom: 92px;
 }
 
 .header__content{
@@ -110,8 +110,9 @@
 }
 
 .header__subscription{
+  background-color: #F27935;
   max-width: 390px;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 15px;
   line-height: 140%;
   color: #111111;
@@ -126,3 +127,53 @@
   align-items: center;
 }
 
+.about{
+  padding: 0 60px 0 200px;
+  margin-bottom: 100px;
+}
+
+.about__title{
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+
+.about__title:last-child{
+  margin-right: 120px;
+}
+
+.about__subscription{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  max-width: 350px;
+}
+
+.about__subscription:last-child{
+  text-align: right;
+  color: #F27935;
+  margin-right: 100px;
+}
+
+.about__flex-place{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.about__picture{
+  max-width: 500px;
+  margin-bottom: 92px;
+}
+
+.about__image{
+  max-width: 500px;
+  margin: 0;
+}
