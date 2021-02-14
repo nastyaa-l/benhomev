@@ -63,7 +63,7 @@
   margin-left: 100px;
 }
 
-.header_active{
+.link_active{
   color:#F27935;
 }
 
@@ -555,11 +555,21 @@
   flex-direction: row;
 }
 
-.footer__list-tem_image{
+.footer__list-item_image{
   margin-right: 10px;
   margin-top: 0;
 }
 
-.footer__list-tem_image:last-child{
-  margin-right: 10px;
+.footer__list-item_image:last-child{
+  margin-right: 15px;
+}
+
+.footer__list-item{
+  opacity: 1;
+  transition: opacity, 3s, linear;
+}
+
+.footer__list-item:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
