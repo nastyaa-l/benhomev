@@ -14,13 +14,7 @@
 
 
 
-.header__content{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 61px;
-}
+
 
 .header__item{
   font-family: 'SF Pro Display';
