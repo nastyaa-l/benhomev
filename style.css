@@ -16,26 +16,7 @@
 
 
 
-.header__item{
-  font-family: 'SF Pro Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.36;
-  margin-right: 10px;
-  text-transform: uppercase;
-  opacity: 1;
-  transition: opacity, 3s, linear;
-}
 
-.header__item:last-child{
-  margin-right: 0;
-}
-
-.header__item:hover{
-  cursor: pointer;
-  opacity: 0.6;
-}
 
 .header__title{
   font-weight: 600;
