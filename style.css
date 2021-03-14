@@ -18,15 +18,7 @@
 
 
 
-.header__title{
-  font-weight: 600;
-  font-size: 85px;
-  line-height: 0.8;
-  color: #FFFFFF;
-  margin-top: 200px;
-  max-width: 555px;
-  margin-left: 100px;
-}
+
 
 .link_active{
   color:#F27935;
