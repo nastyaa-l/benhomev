@@ -1,0 +1,9 @@
+.header__subscription{
+  background-color: #F27935;
+  max-width: 390px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 140%;
+  color: #111111;
+  margin: 0 61px 0 0;
+}
